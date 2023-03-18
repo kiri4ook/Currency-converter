@@ -1,0 +1,10 @@
+export const searchFromInput = document.querySelector(".searchBoxFrom");
+export const searchToInput = document.querySelector(".convert");
+export const exchangeButton = document.querySelector(".exchange");
+export const resetButton = document.querySelector(".reset");
+export const fromCurrecySelect = document.querySelector(".from");
+export const toCurrecySelect = document.querySelector(".to");
+export const costUAHtoUSD = document.querySelector(".costUAHtoUSD");
+export const costUAHtoEUR = document.querySelector(".costUAHtoEUR");
+export const valueFrom = document.getElementById("input1");
+export const valueTo = document.getElementById("input2");

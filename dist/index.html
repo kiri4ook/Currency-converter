@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Currency converter</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="style.css"/>
+   <script defer src="main.js"></script></head>
+   <body>
+      <header>
+         <h3>1 USD = <span class="costUAHtoUSD" style="color: green"></span> UAH</h3>
+         <h3>1 EUR = <span class="costUAHtoEUR" style="color: green"></span> UAH</h3>
+      </header>
+      <h1 class="heading text-center display-2">Currency Converter</h1>
+      <div class="container">
+         <div class="main">
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="input-group mb-3">
+               <select class="form-control from">
+                  <option value="">Select Currency</option>
+                  <option value="USD">USD</option>
+                  <option value="UAH">UAH</option>
+                  <option value="EUR">EUR</option>
+                  <option value="RUB">RUB</option>
+               </select>
+               </div>
+            </div>
+            <div class="form-group col-sm-6">
+               <input id="input1" type="text" class="form-control searchBoxFrom convert" placeholder="0.00"/>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-6 text-center wrapExchange">
+               <button class="btn btn-primary exchange m-2" type="submit"></button>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-6">
+               <div class="input-group mb-3">
+               <select class="form-control to">
+                  <option value="">Select Currency</option>
+                  <option value="USD">USD</option>
+                  <option value="UAH">UAH</option>
+                  <option value="EUR">EUR</option>
+                  <option value="RUB">RUB</option>
+               </select>
+               </div>
+            </div>
+            <div class="form-group col-sm-6">
+               <input id="input2" type="text" class="form-control searchBoxTo convert" placeholder="0.00"/>
+            </div>
+         </div>
+         <div class="text-center">
+            <button class="btn btn-primary m-2 reset">
+               Reset
+            </button>
+         </div>
+         </div>
+      </div>
+      <script src="./main.js"></script>
+   </body>
+</html>

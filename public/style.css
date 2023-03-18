@@ -1,0 +1,44 @@
+body {
+	background-color: rgb(255, 240, 240);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+header {
+   padding-top: 30px;
+   padding-left: 20px;
+}
+
+.heading {
+	font-family: 'Pacifico', cursive;
+	margin: 35px auto 20px;
+}
+
+.main {
+	width: 50vw;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+label {
+	font-size: 20px;
+}
+
+.exchange {
+   background-image: url(images/exchange.png);
+	width: 40px;
+   height: 40px;
+}
+
+.wrapExchange {
+   padding-bottom: 15px;
+}
+
+.reset {
+	width: 200px;
+}
